@@ -363,7 +363,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F10X_HD,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Libraries\CMSIS;..\..\Libraries\CMSIS\CoreSupport;..\..\Libraries\CMSIS\DeviceSupport;..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\APP</IncludePath>
+              <IncludePath>..\..\Libraries\CMSIS;..\..\Libraries\CMSIS\CoreSupport;..\..\Libraries\CMSIS\DeviceSupport;..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\APP;..\..\BSP\bsp;..\..\BSP\systick;..\..\BSP\usart1</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -500,6 +500,26 @@
               <FileName>stm32f10x_pwr.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>BSP</GroupName>
+          <Files>
+            <File>
+              <FileName>bsp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\bsp\bsp.c</FilePath>
+            </File>
+            <File>
+              <FileName>systick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\systick\systick.c</FilePath>
+            </File>
+            <File>
+              <FileName>usart1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\BSP\usart1\usart1.c</FilePath>
             </File>
           </Files>
         </Group>
