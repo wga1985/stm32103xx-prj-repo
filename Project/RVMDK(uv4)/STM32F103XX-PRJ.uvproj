@@ -512,6 +512,16 @@
               <FilePath>..\..\APP\includes.h</FilePath>
             </File>
             <File>
+              <FileName>define.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\APP\define.h</FilePath>
+            </File>
+            <File>
+              <FileName>sizes.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\..\APP\sizes.h</FilePath>
+            </File>
+            <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\APP\main.c</FilePath>
