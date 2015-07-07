@@ -16,6 +16,8 @@ int main(void)
 	
 	while(1)
 	{
+		LED1_TOGGLE;
+		LED2_TOGGLE;
 		delay_ms(100);
 		printf("------main_loop------\r\n");
 	}

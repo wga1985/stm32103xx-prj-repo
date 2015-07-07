@@ -150,5 +150,7 @@ void BSP_Init(void)
 	Big_endian_OR_Little_endian();
 	Print_STM32_ChipID();	
 	Print_STM32_ClocksFreq();
+	
+	led_init();
 }
 
