@@ -571,6 +571,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\APP\main.c</FilePath>
             </File>
+            <File>
+              <FileName>pingpongbuf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\APP\pingpongbuf.c</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>

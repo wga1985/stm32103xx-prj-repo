@@ -13,7 +13,8 @@ int main(void)
 {	
 	BSP_Init();	
 	//usart1_rx_callback_register(Usart1_RxCallback_Func);
-	usart1_dma_test();
+	//usart1_dma_test();
+	pingpong_buf_test();
 	
 	while(1)
 	{
