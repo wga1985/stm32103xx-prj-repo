@@ -26,7 +26,9 @@
 #include "usart1.h"
 #include "led.h"
 #include "timer2.h"
+#include "dma1_ch4.h"
+#include "dma1_ch5.h"
 
-
+/*-------------------------------------------------------------------------------------------------------*/
 
 #endif //__INCLUDES_H__

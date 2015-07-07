@@ -12,7 +12,8 @@ void Usart1_RxCallback_Func(unsigned char *buf, unsigned int len)
 int main(void)
 {	
 	BSP_Init();	
-	usart1_rx_callback_register(Usart1_RxCallback_Func);
+	//usart1_rx_callback_register(Usart1_RxCallback_Func);
+	usart1_dma_test();
 	
 	while(1)
 	{
@@ -24,7 +25,7 @@ int main(void)
 
 		if(IS_TIMEOUT_NMS(TimerEvId_ID1, 3000))
 		{
-			printf("------delay 3s------\r\n");
+			//printf("------delay 3s------\r\n");
 		}
 
 		//delay_ms(100);
